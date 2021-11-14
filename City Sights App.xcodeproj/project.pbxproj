@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		E68FB6FB2741C05F0088B6CA /* City_Sights_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68FB6FA2741C05F0088B6CA /* City_Sights_AppApp.swift */; };
-		E68FB6FD2741C05F0088B6CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68FB6FC2741C05F0088B6CA /* ContentView.swift */; };
 		E68FB6FF2741C0600088B6CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68FB6FE2741C0600088B6CA /* Assets.xcassets */; };
 		E68FB7022741C0600088B6CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68FB7012741C0600088B6CA /* Preview Assets.xcassets */; };
+		E68FB70B2741C0F50088B6CA /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68FB70A2741C0F50088B6CA /* ContentModel.swift */; };
+		E68FB70E2741C1020088B6CA /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68FB70D2741C1020088B6CA /* LaunchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E68FB6F72741C05F0088B6CA /* City Sights App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "City Sights App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E68FB6FA2741C05F0088B6CA /* City_Sights_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City_Sights_AppApp.swift; sourceTree = "<group>"; };
-		E68FB6FC2741C05F0088B6CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E68FB6FE2741C0600088B6CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E68FB7012741C0600088B6CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E68FB70A2741C0F50088B6CA /* ContentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		E68FB70D2741C1020088B6CA /* LaunchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,9 @@
 			isa = PBXGroup;
 			children = (
 				E68FB6FA2741C05F0088B6CA /* City_Sights_AppApp.swift */,
-				E68FB6FC2741C05F0088B6CA /* ContentView.swift */,
+				E68FB70C2741C1020088B6CA /* Views */,
+				E68FB7092741C0F50088B6CA /* ViewModels */,
+				E68FB7082741C0EB0088B6CA /* Models */,
 				E68FB6FE2741C0600088B6CA /* Assets.xcassets */,
 				E68FB7002741C0600088B6CA /* Preview Content */,
 			);
@@ -65,6 +69,32 @@
 				E68FB7012741C0600088B6CA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E68FB7082741C0EB0088B6CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			path = "../../../iOS Foundations 2021/Module 6/Lesson 03/City Sights App/City Sights App/Models";
+			sourceTree = "<group>";
+		};
+		E68FB7092741C0F50088B6CA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E68FB70A2741C0F50088B6CA /* ContentModel.swift */,
+			);
+			name = ViewModels;
+			path = "../../../iOS Foundations 2021/Module 6/Lesson 03/City Sights App/City Sights App/ViewModels";
+			sourceTree = "<group>";
+		};
+		E68FB70C2741C1020088B6CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E68FB70D2741C1020088B6CA /* LaunchView.swift */,
+			);
+			name = Views;
+			path = "../../../iOS Foundations 2021/Module 6/Lesson 03/City Sights App/City Sights App/Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E68FB6FD2741C05F0088B6CA /* ContentView.swift in Sources */,
+				E68FB70E2741C1020088B6CA /* LaunchView.swift in Sources */,
 				E68FB6FB2741C05F0088B6CA /* City_Sights_AppApp.swift in Sources */,
+				E68FB70B2741C0F50088B6CA /* ContentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
